@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:bold">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Calibri:400">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic">
 		<link rel="shortcut icon" href="images/icon.png">
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
@@ -22,10 +22,10 @@
 			<nav>
 				<!--logo--->
 				<div class="logo">
-					<a href="index.html" ><img src="./images/BEST_sg.png" alt=""></a>
+					<a href="/" ><img src="./images/BEST_sg.png" alt=""></a>
 				</div>
 				<div class="logoMob">
-					<a href="index.html" ><img src="./images/mob.png" alt=""></a>
+					<a href="/" ><img src="./images/mob.png" alt=""></a>
 				</div>
 				<!--menu--------->
 				<div class="toggle"></div>
@@ -222,12 +222,12 @@
 			<!--name-------->
 			<div class="f-name">
 				<font >Name</font>
-				<input type="text" placeholder="Full Name" required/>
+				<input type="text" placeholder="Full Name" required autocomplete="cc-family-name" autocapitalize="on"/>
 			</div>
 			<!--email-------->
 			<div class="f-email">
 				<font >Email</font>
-				<input type="email" placeholder="Example@gmail.com" required/>
+				<input type="email" placeholder="Example@gmail.com" required autocomplete="email
 			</div>
 		</div>
 
@@ -236,7 +236,7 @@
 			<!--message-------->
 			<div class="message">
 				<font >Message</font>
-				<textarea name="message" rows="5" cols="20" placeholder="Write Message..." required></textarea>
+				<textarea name="message" rows="5" cols="20" placeholder="Write Message..." required autocomplete="off"></textarea>
 			</div>
 			<!--submit-btn------------>
 			<button>submit</button>
@@ -247,7 +247,7 @@
 
 	<footer>
 		<p>&copy; <script>document.write(new Date().getFullYear());
-		</script>BEST Patras</p>
+		</script> BEST Patras</p>
 	</footer>
 	
 	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
